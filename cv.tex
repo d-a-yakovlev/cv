@@ -150,11 +150,10 @@
 
 \section{Навыки}
 \begin{tabularx}{\linewidth}{@{}l X@{}}
-Языки программирования &  \normalsize{Python, SQL, C/C++, Javascript, Go, Perl, Java}\\
-Data analysis  &  \normalsize{numpy, pandas, scipy, matplotlib, seaborn, A/B тестирование}\\ 
+Языки программирования &  \normalsize{Python, SQL, C/C++}\\
+Data analysis  &  \normalsize{numpy, pandas, scipy, matplotlib, seaborn, A/B tests}\\ 
 Data science  &  \normalsize{scikit-learn, networkx, CV, NLP, natasha, PyTorch, Tensorflow}\\ 
-Data engineering  &  \normalsize{Spark, PostgreSQL, HDFS, MapReduce, RabbitMQ, REST API, Flask, FastAPI}\\ 
-Дополнительно  &  \normalsize{asyncio, unittest, gtest, catch2}\\ 
+Data engineering  &  \normalsize{Spark, PostgreSQL, HDFS, MapReduce, RabbitMQ, REST API, Flask, FastAPI}\\  
 
 \end{tabularx}
 
@@ -174,14 +173,22 @@ Data engineering  &  \normalsize{Spark, PostgreSQL, HDFS, MapReduce, RabbitMQ, R
 \section{Проекты}
 
 \begin{tabularx}{\linewidth}{ @{}l r@{} }
-\textbf{Проект Инженерно Математической Школы - "Muse"} & \hfill \href{https://github.com/deepvk/muse}{Ссылка на репозиторий} \\[3.75pt]
+\textbf{Проект-дисциплина: "Система реидентификации человека по походке"} & \hfill \href{https://drive.google.com/file/d/1IwEmdHyyXWQlCG_Hfhxn1D-F65usrVAS/view?usp=sharing}{Демо} \\[3.75pt]
 \multicolumn{2}{@{}X@{}}{
-Проект посвящён задаче разделения сигнала на источники, которую в 2015 сформулировала компания Sony для приложений в медиа обработке. Решение приходящую на вход музыку разделяет на 4 источника: барабаны, басы, вокал и всё оставшееся. В рамках проекта участвовал в оптимизации модели, организации окружения, написании CLI скриптов для работы с решением, формулировании и проверки гипотез. Stack: Python, Docker, PyTorch, TorchAudio, Torch Lightning, Tensorflow.
+Проект посвящён созданию прототипного решения для задач видеоналитики данных с камер видеонаблюдения. В рамках проекта занимался созданием моделей и проверкой гипотез. Текущее решение состоит из модели формирующей вектора-походки и индекса в виде KNN для ре-идентификации. Используется оптический поток алгоритма Фарнебака. Stack: Python, PySide/PyQT, OpenCV, PyTorch.
+}  \\
+\end{tabularx}
+
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Проект Инженерно Математической Школы: "Muse"} & \hfill \href{https://github.com/deepvk/muse}{Ссылка на репозиторий} \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{
+Проект посвящён задаче разделения сигнала на источники. Приходящая на вход музыка разделяется на: барабаны, басы, вокал и всё оставшееся. В рамках проекта участвовал в оптимизации модели, организации окружения, написании CLI скриптов для работы с решением, формулировании и проверки гипотез. Stack: Python, Docker, PyTorch, TorchAudio, Tensorflow.
 }  \\
 \end{tabularx}
 
 \begin{tabularx}{\linewidth}{ @{}l r@{} }
-\textbf{Учебный проект - "Weather report"} & \hfill \href{https://github.com/d-a-yakovlev/IDA_weather_project}{Ссылка на репозиторий} \\[3.75pt]
+\textbf{Проект в рамках курса: "Weather report"} & \hfill \href{https://github.com/d-a-yakovlev/IDA_weather_project}{Ссылка на репозиторий} \\[3.75pt]
 \multicolumn{2}{@{}X@{}}{
 Проект посвящён предсказанию погоды на ближайшие дни. В рамках проекта организовывал работу команды и писал Flask приложение, объединившее в себе модель, инфографики, frontend и виджет с картой. Stack: Python, SQLite, GeoPandas, Flask, Jinja, HTML, CSS3, JavaScript.
 }  \\
@@ -211,23 +218,31 @@ Data engineering  &  \normalsize{Spark, PostgreSQL, HDFS, MapReduce, RabbitMQ, R
 \begin{tabularx}{\linewidth}{ @{}l r@{} }
 \textbf{VK} & \hfill Август 2021 - Январь 2023 \\[3.75pt]
 \multicolumn{2}{@{}X@{}}{
-Начиная как стажёр, впоследствии работал младшим разработчиком на продукте ДМР(Деньги мейл ру). Участвовал в поддержке решения, реализуя новые модули для обработки различных типов транзакций и добавляя новые фичи в админку. Stack: Perl, Bash, Template Tool Kit, Docker.
+Начиная как стажёр, впоследствии работал младшим разработчиком. Реализация модулей для обработки различных типов транзакций и добавление новых фич в админку. Stack: Perl, Bash, Docker.
 }  \\
 \end{tabularx}
 
 \begin{tabularx}{\linewidth}{ @{}l r@{} }
 \textbf{Glowbyte Consulting} & \hfill Январь 2021 - Август 2021 \\[3.75pt]
 \multicolumn{2}{@{}X@{}}{
-\begin{minipage}[t]{\linewidth}
-    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt]
-        \item[--] Разрабатывал и обновлял ETL, для формировния Data Mart и вспомогательных таблиц.
-        \item[--] Работал с Hadoop кластером: HDFS, Hive.
-    \end{itemize}
-    \end{minipage}
-    Stack: Spark, Java8, Bash, Hadoop.
-}
-
+Разрабатывал и обновлял ETL для формирования Data Mart. Stack: Spark, Java8, Bash, Hadoop.
+}  \\
 \end{tabularx}
+
+
+% \begin{tabularx}{\linewidth}{ @{}l r@{} }
+% \textbf{Glowbyte Consulting} & \hfill Январь 2021 - Август 2021 \\[3.75pt]
+% \multicolumn{2}{@{}X@{}}{
+% \begin{minipage}[t]{\linewidth}
+%     \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt]
+%         \item[--] Разрабатывал и обновлял ETL, для формировния Data Mart и вспомогательных таблиц.
+%         \item[--] Работал с Hadoop кластером: HDFS, Hive.
+%     \end{itemize}
+%     \end{minipage}
+%     Stack: Spark, Java8, Bash, Hadoop.
+% }
+
+% \end{tabularx}
 
 
 
