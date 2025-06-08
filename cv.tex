@@ -9,7 +9,7 @@
 %	to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 %	copies of the Software, and to permit persons to whom the Software is
 %	furnished to do so, subject to the following conditions:
-%	
+%
 %	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 %	IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 %	FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -17,7 +17,7 @@
 %	LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 %	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 %	THE SOFTWARE.
-%	
+%
 %
 %-----------------------------------------------------------------------------------------------------------------------------------------------%
 
@@ -48,7 +48,7 @@
 %	PACKAGES
 %----------------------------------------------------------------------------------------
 \usepackage{url}
-\usepackage{parskip} 	
+\usepackage{parskip}
 
 %other packages for formatting
 \RequirePackage{color}
@@ -63,7 +63,7 @@
 \usepackage{enumitem}
 
 % centered version of 'X' col. type
-\newcolumntype{C}{>{\centering\arraybackslash}X} 
+\newcolumntype{C}{>{\centering\arraybackslash}X}
 
 %to prevent spillover of tabular into next pages
 \usepackage{supertabular}
@@ -72,11 +72,11 @@
 \setlength{\fullcollw}{0.47\textwidth}
 
 %custom \section
-\usepackage{titlesec}				
+\usepackage{titlesec}
 \usepackage{multicol}
 \usepackage{multirow}
 
-%CV Sections inspired by: 
+%CV Sections inspired by:
 %http://stefano.italians.nl/archives/26
 \titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
 \titlespacing{\section}{0pt}{10pt}{10pt}
@@ -114,7 +114,7 @@
 \begin{document}
 
 % non-numbered pages
-\pagestyle{empty} 
+\pagestyle{empty}
 
 %----------------------------------------------------------------------------------------
 %	TITLE
@@ -128,10 +128,10 @@
 
 \begin{tabularx}{\linewidth}{@{} C @{}}
 \Huge{Яковлев Дмитрий Алексеевич} \\[7.5pt]
-\href{https://github.com/d-a-yakovlev}{\raisebox{-0.05\height}\faGithub\ d-a-yakovlev} \ $|$ \ 
-\href{https://t.me/jacob_dmitriev}{\raisebox{-0.05\height}\faTelegram\ @jacob\_dmitriev} \ $|$ \ 
-% \href{https://mysite.com}{\raisebox{-0.05\height}\faGlobe \ mysite.com} \ $|$ \ 
-\href{mailto:raidegdp@gmail.com}{\raisebox{-0.05\height}\faEnvelope \ raidegdp@gmail.com} \ $|$ \ 
+\href{https://github.com/d-a-yakovlev}{\raisebox{-0.05\height}\faGithub\ d-a-yakovlev} \ $|$ \
+\href{https://t.me/jacob_dmitriev}{\raisebox{-0.05\height}\faTelegram\ @jacob\_dmitriev} \ $|$ \
+% \href{https://mysite.com}{\raisebox{-0.05\height}\faGlobe \ mysite.com} \ $|$ \
+\href{mailto:raidegdp@gmail.com}{\raisebox{-0.05\height}\faEnvelope \ raidegdp@gmail.com} \ $|$ \
 \href{tel:+79084824371}{\raisebox{-0.05\height}\faMobile \ +7(908)482-43-71} \\
 \end{tabularx}
 
@@ -142,59 +142,29 @@
 %Interests/ Keywords/ Summary
 \section{О себе}
 % This CV can also be automatically complied and published using GitHub Actions. For details, \href{https://github.com/jitinnair1/autoCV}{click here}.
-Заканчиваю магистратуру НИУ ВШЭ. Принял для себя решение работать в сфере связанной с обработкой данных, будь это больше аналитическая, инженерная или посвящённая созданию моделей машинного обучения направленность. Поэтому взял перерыв с работой, чтобы сконцентрироваться на учёбе и лучше погрузиться в интересующую область.
-
+Fullstack разработчик в AI/Backend. Стремлюсь делать решения, которые бы приносили ощутимую пользу клиентам. Интересуюсь Rust.
 
 
 %	SKILLS
 
 \section{Навыки}
 \begin{tabularx}{\linewidth}{@{}l X@{}}
-Языки программирования &  \normalsize{Python, SQL, C/C++}\\
-Data analysis  &  \normalsize{numpy, pandas, scipy, matplotlib, seaborn, A/B tests}\\ 
-Data science  &  \normalsize{scikit-learn, networkx, CV, NLP, natasha, PyTorch, Tensorflow}\\ 
-Data engineering  &  \normalsize{Spark, PostgreSQL, HDFS, MapReduce, RabbitMQ, REST API, Flask}\\  
-
+Языки программирования &  \normalsize{Python, SQL}\\
+Продуктовый опыт  &  \normalsize{Разработка продукта E2E, A/B тестирование}\\
+AI  &  \normalsize{Langchain/Langgraph, LLM, scikit-learn, networkx, natasha, PyTorch, Spark, HDFS, MapReduce, numpy, pandas, scipy, matplotlib, seaborn}\\
+Backend &  \normalsize{PostgreSQL, Микросервисная архитектура, REST API, Fast API, Kubernetes (Openshift), Jenkins}\\
 \end{tabularx}
 
 
 %	EDUCATION
 
 \section{Образование}
-\begin{tabularx}{\linewidth}{@{}l X@{}}	
+\begin{tabularx}{\linewidth}{@{}l X@{}}
 2022 - 2024 & М \textbf{НИУ ВШЭ} - Системный анализ и математические технологии \hfill \normalsize (GPA: 8.8/10.0) \\
 
-2018 - 2022 & Б  \textbf{ НИУ МИЭТ} - Технические средства автоматизации и управления \hfill \normalsize (GPA: 4.8/5.0) \\ 
+2018 - 2022 & Б  \textbf{ НИУ МИЭТ} - Технические средства автоматизации и управления \hfill \normalsize (GPA: 4.8/5.0) \\
 
 \end{tabularx}
-
-
-%Projects
-\section{Проекты}
-
-\begin{tabularx}{\linewidth}{ @{}l r@{} }
-\textbf{Проект-дисциплина: "Система реидентификации человека по походке"} & \hfill \href{https://drive.google.com/file/d/1IwEmdHyyXWQlCG_Hfhxn1D-F65usrVAS/view?usp=sharing}{Демо} \\[3.75pt]
-\multicolumn{2}{@{}X@{}}{
-Проект посвящён созданию прототипного решения для задач видеоналитики данных с камер видеонаблюдения. В рамках проекта занимался созданием моделей и проверкой гипотез. Текущее решение состоит из модели формирующей вектора-походки и индекса в виде KNN для ре-идентификации. Используется оптический поток алгоритма Фарнебака. Stack: Python, PySide/PyQT, OpenCV, PyTorch.
-}  \\
-\end{tabularx}
-
-
-\begin{tabularx}{\linewidth}{ @{}l r@{} }
-\textbf{Проект Инженерно Математической Школы: "Muse"} & \hfill \href{https://github.com/deepvk/muse}{Ссылка на репозиторий} \\[3.75pt]
-\multicolumn{2}{@{}X@{}}{
-Проект посвящён задаче разделения сигнала на источники. Приходящая на вход музыка разделяется на: барабаны, басы, вокал и всё оставшееся. В рамках проекта участвовал в оптимизации модели, организации окружения, написании CLI скриптов для работы с решением, формулировании и проверки гипотез. Stack: Python, Docker, PyTorch, TorchAudio, Tensorflow.
-}  \\
-\end{tabularx}
-
-\begin{tabularx}{\linewidth}{ @{}l r@{} }
-\textbf{Проект в рамках курса: "Weather report"} & \hfill \href{https://github.com/d-a-yakovlev/IDA_weather_project}{Ссылка на репозиторий} \\[3.75pt]
-\multicolumn{2}{@{}X@{}}{
-Проект посвящён предсказанию погоды на ближайшие дни. В рамках проекта организовывал работу команды и писал Flask приложение, объединившее в себе модель, инфографики, frontend и виджет с картой. Stack: Python, SQLite, GeoPandas, Flask, Jinja, HTML, CSS3, JavaScript.
-}  \\
-\end{tabularx}
-
-%----------------------------------------------------------------------------------------
 
 
 %----------------------------------------------------------------------------------------
@@ -209,23 +179,36 @@ Data engineering  &  \normalsize{Spark, PostgreSQL, HDFS, MapReduce, RabbitMQ, R
 %----------------------------------------------------------------------------------------
 
 
-
-
-
 %Experience
 \section{Опыт работы}
 
 \begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Сбер} & \hfill  Май 2024 - ... \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{
+\textbf{\textit{MLOps}}: Ведение разработки продукта E2E. Продукт посвещен стандартизации разработки исходного кода дистрибутива модели машинного обучения под внутренюю систему офлайн инференса.
+
+\textbf{\textit{Backend}}: Разработка SaaS сервисов для предостовления другим командам удобного API для создания AI-решений. Python, Pyspark, ONNX, FastAPI, Jenkins, Openshift
+}  \\
+\end{tabularx}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{НИУ ВШЭ} & \hfill Январь 2023 - Май 2024 \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{
+Проектная деятельность, описанная в секции "Проекты".
+}  \\
+\end{tabularx}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
 \textbf{VK} & \hfill Август 2021 - Январь 2023 \\[3.75pt]
 \multicolumn{2}{@{}X@{}}{
-Начиная как стажёр, впоследствии работал младшим разработчиком. Реализация модулей для обработки различных типов транзакций и добавление новых фич в админку. Stack: Perl, Bash, Docker.
+Реализация модулей для обработки различных типов транзакций и добавление новых фич в админку. Perl, Bash, Docker.
 }  \\
 \end{tabularx}
 
 \begin{tabularx}{\linewidth}{ @{}l r@{} }
 \textbf{Glowbyte Consulting} & \hfill Январь 2021 - Август 2021 \\[3.75pt]
 \multicolumn{2}{@{}X@{}}{
-Разрабатывал и обновлял ETL для формирования Data Mart. Stack: Spark, Java8, Bash, Hadoop.
+Разрабатывал и обновлял ETL для формирования Data Mart. Spark, Java8, Bash, Hadoop.
 }  \\
 \end{tabularx}
 
@@ -245,8 +228,35 @@ Data engineering  &  \normalsize{Spark, PostgreSQL, HDFS, MapReduce, RabbitMQ, R
 % \end{tabularx}
 
 
+%Projects
+\section{Проекты}
 
-\vfill
-\center{\footnotesize Последнее обновление: \today}
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Проект-дисциплина: "Система реидентификации человека по походке"} & \hfill \href{https://drive.google.com/file/d/1IwEmdHyyXWQlCG_Hfhxn1D-F65usrVAS/view?usp=sharing}{Демо} \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{
+Проект посвящён созданию прототипного решения для задач видеоналитики данных с камер видеонаблюдения. В рамках проекта занимался созданием моделей и проверкой гипотез. Текущее решение состоит из модели формирующей вектора-походки и индекса в виде KNN для ре-идентификации. Используется оптический поток алгоритма Фарнебака. Python, PySide/PyQT, OpenCV, PyTorch.
+}  \\
+\end{tabularx}
+
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Проект Инженерно Математической Школы: "Muse"} & \hfill \href{https://github.com/deepvk/muse}{Ссылка на репозиторий} \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{
+Проект посвящён задаче разделения сигнала на источники. Приходящая на вход музыка разделяется на: барабаны, басы, вокал и всё оставшееся. В рамках проекта участвовал в оптимизации модели, проверки гипотез и организации окружения. Python, Docker, PyTorch, TorchAudio, Tensorflow.
+}  \\
+\end{tabularx}
+
+% \begin{tabularx}{\linewidth}{ @{}l r@{} }
+% \textbf{Проект в рамках курса: "Weather report"} & \hfill \href{https://github.com/d-a-yakovlev/IDA_weather_project}{Ссылка на репозиторий} \\[3.75pt]
+% \multicolumn{2}{@{}X@{}}{
+% Проект посвящён предсказанию погоды на ближайшие дни. В рамках проекта организовывал работу команды и писал Flask приложение, объединившее в себе модель, инфографики, frontend и виджет с картой. Stack: Python, SQLite, GeoPandas, Flask, Jinja, HTML, CSS3, JavaScript.
+% }  \\
+% \end{tabularx}
+
+%----------------------------------------------------------------------------------------
+
+
+% \vfill
+% \center{\footnotesize Последнее обновление: \today}
 
 \end{document}
