@@ -9,7 +9,7 @@
 %	to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 %	copies of the Software, and to permit persons to whom the Software is
 %	furnished to do so, subject to the following conditions:
-%
+%	
 %	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 %	IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 %	FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -17,7 +17,7 @@
 %	LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 %	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 %	THE SOFTWARE.
-%
+%	
 %
 %-----------------------------------------------------------------------------------------------------------------------------------------------%
 
@@ -48,7 +48,7 @@
 %	PACKAGES
 %----------------------------------------------------------------------------------------
 \usepackage{url}
-\usepackage{parskip}
+\usepackage{parskip} 	
 
 %other packages for formatting
 \RequirePackage{color}
@@ -63,7 +63,7 @@
 \usepackage{enumitem}
 
 % centered version of 'X' col. type
-\newcolumntype{C}{>{\centering\arraybackslash}X}
+\newcolumntype{C}{>{\centering\arraybackslash}X} 
 
 %to prevent spillover of tabular into next pages
 \usepackage{supertabular}
@@ -72,11 +72,11 @@
 \setlength{\fullcollw}{0.47\textwidth}
 
 %custom \section
-\usepackage{titlesec}
+\usepackage{titlesec}				
 \usepackage{multicol}
 \usepackage{multirow}
 
-%CV Sections inspired by:
+%CV Sections inspired by: 
 %http://stefano.italians.nl/archives/26
 \titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
 \titlespacing{\section}{0pt}{10pt}{10pt}
@@ -114,7 +114,7 @@
 \begin{document}
 
 % non-numbered pages
-\pagestyle{empty}
+\pagestyle{empty} 
 
 %----------------------------------------------------------------------------------------
 %	TITLE
@@ -128,10 +128,10 @@
 
 \begin{tabularx}{\linewidth}{@{} C @{}}
 \Huge{Яковлев Дмитрий Алексеевич} \\[7.5pt]
-\href{https://github.com/d-a-yakovlev}{\raisebox{-0.05\height}\faGithub\ d-a-yakovlev} \ $|$ \
-\href{https://t.me/jacob_dmitriev}{\raisebox{-0.05\height}\faTelegram\ @jacob\_dmitriev} \ $|$ \
-% \href{https://mysite.com}{\raisebox{-0.05\height}\faGlobe \ mysite.com} \ $|$ \
-\href{mailto:raidegdp@gmail.com}{\raisebox{-0.05\height}\faEnvelope \ raidegdp@gmail.com} \ $|$ \
+\href{https://github.com/d-a-yakovlev}{\raisebox{-0.05\height}\faGithub\ d-a-yakovlev} \ $|$ \ 
+\href{https://t.me/jacob_dmitriev}{\raisebox{-0.05\height}\faTelegram\ @jacob\_dmitriev} \ $|$ \ 
+% \href{https://mysite.com}{\raisebox{-0.05\height}\faGlobe \ mysite.com} \ $|$ \ 
+\href{mailto:raidegdp@gmail.com}{\raisebox{-0.05\height}\faEnvelope \ raidegdp@gmail.com} \ $|$ \ 
 \href{tel:+79084824371}{\raisebox{-0.05\height}\faMobile \ +7(908)482-43-71} \\
 \end{tabularx}
 
@@ -142,7 +142,7 @@
 %Interests/ Keywords/ Summary
 \section{О себе}
 % This CV can also be automatically complied and published using GitHub Actions. For details, \href{https://github.com/jitinnair1/autoCV}{click here}.
-Fullstack разработчик в AI/Backend. Стремлюсь делать решения, которые бы приносили ощутимую пользу клиентам. Интересуюсь Rust.
+Fullstack AI engineer. MLE/MLOps/Backend/Frontend.
 
 
 %	SKILLS
@@ -150,19 +150,19 @@ Fullstack разработчик в AI/Backend. Стремлюсь делать 
 \section{Навыки}
 \begin{tabularx}{\linewidth}{@{}l X@{}}
 Языки программирования &  \normalsize{Python, SQL}\\
-Продуктовый опыт  &  \normalsize{Разработка продукта E2E, A/B тестирование}\\
-AI  &  \normalsize{Langchain/Langgraph, LLM, scikit-learn, networkx, natasha, PyTorch, Spark, HDFS, MapReduce, numpy, pandas, scipy, matplotlib, seaborn}\\
-Backend &  \normalsize{PostgreSQL, Микросервисная архитектура, REST, FastAPI, Kubernetes (Openshift), Jenkins}\\
+Продуктовый опыт  &  \normalsize{Разработка продукта E2E, A/B тестирование}\\ 
+AI  &  \normalsize{scikit-learn, networkx, PyTorch, Spark, numpy, pandas, mlflow}\\
+DEV &  \normalsize{PostgreSQL, REST API, FastAPI, Kubernetes, Refine.js, ArgoCD}\\
 \end{tabularx}
 
 
 %	EDUCATION
 
 \section{Образование}
-\begin{tabularx}{\linewidth}{@{}l X@{}}
-2022 - 2024 & М \textbf{НИУ ВШЭ} - Системный анализ и математические технологии \hfill \normalsize (GPA: 8.8/10.0) \\
+\begin{tabularx}{\linewidth}{@{}l X@{}}	
+2022 - 2024 & М \textbf{НИУ ВШЭ} - Системный анализ и математические технологии \hfill \normalsize \\
 
-2018 - 2022 & Б  \textbf{ НИУ МИЭТ} - Технические средства автоматизации и управления \hfill \normalsize (GPA: 4.8/5.0) \\
+2018 - 2022 & Б  \textbf{ НИУ МИЭТ} - Технические средства автоматизации и управления \hfill \normalsize \\ 
 
 \end{tabularx}
 
@@ -183,7 +183,14 @@ Backend &  \normalsize{PostgreSQL, Микросервисная архитект
 \section{Опыт работы}
 
 \begin{tabularx}{\linewidth}{ @{}l r@{} }
-\textbf{Сбер} & \hfill  Май 2024 - ... \\[3.75pt]
+\textbf{T2 (TELE2)} & \hfill Июль 2025 - ... \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{
+Разрабатываю платформу для улучшения DS цикла разработки моделей рекомендаций.
+}  \\
+\end{tabularx}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Сбер} & \hfill  Май 2024 - Июль 2025 \\[3.75pt]
 \multicolumn{2}{@{}X@{}}{
 \textbf{\textit{MLOps}}: Ведение разработки продукта E2E. Продукт посвещен стандартизации разработки исходного кода дистрибутива модели машинного обучения под внутренюю систему офлайн инференса.
 
@@ -201,14 +208,14 @@ Backend &  \normalsize{PostgreSQL, Микросервисная архитект
 \begin{tabularx}{\linewidth}{ @{}l r@{} }
 \textbf{VK} & \hfill Август 2021 - Январь 2023 \\[3.75pt]
 \multicolumn{2}{@{}X@{}}{
-Реализация модулей для обработки различных типов транзакций и добавление новых фич в админку. Perl, Bash, Docker.
+Perl, Bash, Docker.
 }  \\
 \end{tabularx}
 
 \begin{tabularx}{\linewidth}{ @{}l r@{} }
 \textbf{Glowbyte Consulting} & \hfill Январь 2021 - Август 2021 \\[3.75pt]
 \multicolumn{2}{@{}X@{}}{
-Разрабатывал и обновлял ETL для формирования Data Mart. Spark, Java8, Bash, Hadoop.
+ETL, Spark, Java8, Bash, Hadoop.
 }  \\
 \end{tabularx}
 
